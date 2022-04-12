@@ -10,7 +10,7 @@ def _price_url(currency, action):
 
 def handle_args():
     """Process arguments."""
-    parser = argparse.ArgumentParser(description="Get bitcon price.")
+    parser = argparse.ArgumentParser(description="Get bitcoin price.")
     parser.add_argument(
         "-c",
         "--currency",
